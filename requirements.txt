@@ -3,3 +3,4 @@ langchain-groq
 pymupdf
 python-dotenv
 apify-client
+fastmcp

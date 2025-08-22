@@ -41,4 +41,4 @@ def ask_groq(prompt,max_tokens=500):
         str: The response from the OpenAI API.
     """
     response = llm.invoke(prompt, max_tokens=max_tokens)
-    return response['answer']
+    return response.content
